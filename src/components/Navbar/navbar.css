@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 2rem; /* This is equivalent to text-4xl */
+    font-family: Arial, sans-serif;
+}
+.bold-text {
+    padding: 0 0.5rem; /* This is equivalent to px-2 */
+    font-weight: 600;
+    margin-bottom:0.2rem;
+    transition: all ease-in 0.2s;
+}
+.accent-text {
+    font-weight: 400;
+    color: #F13024; /* Replace with your accent color */
+    transition: all ease-out 0.2s;
+}
+
+.header:hover .bold-text{
+    color: #F13024;
+}
+
+.header:hover .accent-text{
+    color: white;
+}
