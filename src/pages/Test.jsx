@@ -7,12 +7,11 @@ import {Container} from 'react-bootstrap';
 
 function Test() {
   return (
-    <Container fluid className="home-cont edu-section">
-      <Container>
+    <Container className="edu-section">
     <Tabs>
     <TabList>
-      <Tab>Education</Tab>
-      <Tab>Achievements</Tab>
+      <Tab><h3><strong className="yellow text-uppercase"> Education </strong></h3></Tab>
+      <Tab><h3><strong className="yellow text-uppercase"> Achievements </strong></h3></Tab>
     </TabList>
     <TabPanel>
     <div className="work-edu">
@@ -47,14 +46,12 @@ function Test() {
             <li> Awarded the Redington Scholarship, securing a highly competitive position among a select group of
             students and gaining valuable funding for education.</li><br/>
             <li> Solved over 800+ LeetCode questions, demonstrating strong problem-solving skills.</li><br/>
-            <li>Taluka level topper for 12th Science CBSE Examination.</li><br/>
-            <li>Microsoft Certified-Data Analyst Associate.</li><br/>
+            <li>Attained a rank of 47,807 in JEE MAIN 2021 and a percentile of 99.63 in MHT-CET 2021.</li><br/>
         </ul>
         </div>
     </TabPanel>
   </Tabs>
   </Container>
-          </Container>
   );
 }
 

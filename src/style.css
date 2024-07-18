@@ -271,7 +271,7 @@ html {
 
 
   .home-cont{
-    background-image: url('./assets/final-bg.png') !important; 
+    background-image: url('./assets/final-bg2.png') !important; 
     background-size: cover !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
@@ -353,13 +353,17 @@ html {
     transition: all 0.4s ease 0s;
   }
 
-  .edu-section{
-    padding-top: 100px !important;
-    color: wheat !important;
+
+  .aboutus-section{
+    position: relative !important;
+    z-index: 1 !important;
   }
+
 
   .info{
     color: wheat !important;
+    font-size: 1.4em !important;
+    text-align: justify;
   }
   
 

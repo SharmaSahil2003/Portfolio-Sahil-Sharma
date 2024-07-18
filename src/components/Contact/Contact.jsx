@@ -1,5 +1,5 @@
 import React,{useState, useRef} from 'react'
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser';
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import './Contact.css'
@@ -27,10 +27,10 @@ const Contact = () => {
       
     emailjs
       .sendForm(
-        "service_niilndo",
-        "template_6z5idye",
+        "contact_service",
+        "contact_form",
         form.current,
-        "VOBt6Akm1LhI5CZG-"
+        "gaXvuGUcAFPz40cUc"
       )
       .then(
         (result) => {
@@ -57,9 +57,9 @@ const Contact = () => {
                 <input type="text" name="from_name" className="user"  placeholder="Name" onChange={handleChange}/>
                 <input type="email" name="reply_to" className="user" placeholder="Email" onChange={handleChange} />
                 <textarea name="message" className="user" placeholder="Message" onChange={handleChange} />
-                <span className='not-done' >{notDone && "Please, fill all the input field"}</span>
+                {notDone && <span className='not-done alert alert-danger' >Please, fill all the input field !!</span>}
                 <Button type="submit" className="button" disabled={done}>Send</Button>
-                <span className='done'>{done && "Thanks for contacting me and be sure i have recieved your mail. If you are testing this functionality then i am confirming this thing working perfectly fine. If you have any serious query then i will reply. Also if you need me, you can conatct me on Linkedin."}</span>
+                {done && <span className='done alert alert-success'>Thanks for contacting me and be sure i have recieved your mail !!</span>}
                 </form>
             </Col>
             </Row>
