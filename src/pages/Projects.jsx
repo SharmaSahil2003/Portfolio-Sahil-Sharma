@@ -58,6 +58,7 @@ const Projects = () => {
               title="Disney + Hotstar Replica"
               description="Created a responsive web application resembling Disney Plus Hotstar using React.js and Bootstrap. Implemented key features like user authentication, video streaming, dynamic content loading, and efficient search functionalities. The design prioritized user-friendly interfaces and smooth navigation to enhance the overall viewing experience, ensuring compatibility across different devices for seamless entertainment access."
               ghLink="https://github.com/SharmaSahil2003/Disney-Hotstar-Replica"
+              demoLink="https://disney-hotstar-replica.vercel.app/"
             />
           </Col>
 
@@ -68,7 +69,7 @@ const Projects = () => {
               title="ReactFlix (Netflix Replica)"
               description="Developed a responsive web application inspired by Netflix, utilizing React.js and Bootstrap for frontend development. Implemented features such as user authentication, smooth video streaming, dynamic content loading based on user preferences, and effective search capabilities. The design focused on creating an engaging user interface with intuitive navigation and visually appealing layouts, ensuring a seamless viewing experience similar to the popular streaming platform."
               ghLink="https://github.com/SharmaSahil2003/ReactFlix"
-              // demoLink="https://project-krypto.netlify.app/"
+              demoLink="https://react-flix-lime.vercel.app/"
             />
           </Col>
 
